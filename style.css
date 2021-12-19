@@ -1,67 +1,69 @@
-.main{
-    display: block;
-    margin:auto;
-    width: 50%;
-    padding-left: 500px;
-    margin-top: 13rem;
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.container{
-    position:relative;
-    padding:0;
-    margin:0;
+.container {
+  position: relative;
+  padding: 0;
+  margin: 0;
 }
 
-.int{
-    width: 30vw;
-    height:20px;
-    margin:0;
-    margin-right: 20px;
-    /* padding-left:20px; */
+.int {
+  width: 30vw;
+  height: 20px;
 }
 
-.int-img{
-    position:absolute;
-    bottom:8px;
-    left:10px;
-    width:10px;
-    height:10px;
+.int-img {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+}
+.button {
+  display: flex;
+  margin: 5px;
+  margin-right: 187px;
 }
 
-nav{
-    overflow: hidden;
+nav {
+  overflow: hidden;
 }
 
-nav a{
-    float: right;
-    padding: 0 6px;
+nav a {
+  float: right;
+  padding: 0 6px;
 }
 
-.footer-2{
-    position: fixed;
-    bottom: 0;
+.footer-2 {
+  position: fixed;
+  bottom: 0;
 }
 
-.footer-2 p{
-    display: inline-block;
-    margin-left: 15px;
+.footer-2 p {
+  display: inline-block;
+  margin-left: 15px;
 }
 
-.footer-right{
-    bottom: 0;
-    float: right;
-    margin-top: 25rem;
+.footer-right {
+  bottom: 0;
+  float: right;
 }
 
-.footer-right p{
-    float: right;
-    display: block;
-    padding-right: 15px;
+.footer-right p {
+  float: right;
+  display: block;
+  padding-right: 15px;
 }
 
-.footer-1{
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 50px;
-    margin-left: 12px;
+.footer-1 {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 50px;
+  margin-left: 12px;
 }
